@@ -14,11 +14,17 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         #home {
             background-image: url("assets/images/museum_art.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+        }
+        section {
+            scroll-margin-top: 100px;
         }
     </style>
 </head>
@@ -89,6 +95,278 @@
 
 
     </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">Our Gallery</h2>
+                <p class="lead text-muted">Explore our collection of masterpieces from different eras</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=400&h=300&fit=crop" class="card-img-top" alt="Classical Art">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Classical Art</h5>
+                            <p class="card-text text-muted">Timeless masterpieces from the Renaissance period showcasing human emotion and divine beauty.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1541367777708-7905fe3296c0?w=400&h=300&fit=crop" class="card-img-top" alt="Modern Art">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Modern Art</h5>
+                            <p class="card-text text-muted">Contemporary expressions that challenge perception and inspire new ways of seeing the world.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=400&h=300&fit=crop" class="card-img-top" alt="Abstract Art">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Abstract Art</h5>
+                            <p class="card-text text-muted">Bold colors and shapes that transcend traditional representation and evoke pure emotion.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1544967082-d9d25d867d66?w=400&h=300&fit=crop" class="card-img-top" alt="Sculpture">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Sculpture</h5>
+                            <p class="card-text text-muted">Three-dimensional artworks carved from marble, bronze, and other precious materials.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?w=400&h=300&fit=crop" class="card-img-top" alt="Photography">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Photography</h5>
+                            <p class="card-text text-muted">Capturing moments in time through the lens of world-renowned photographers.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?w=400&h=300&fit=crop" class="card-img-top" alt="Medieval Art">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary">Medieval Art</h5>
+                            <p class="card-text text-muted">Sacred and secular works from the Middle Ages, rich in symbolism and history.</p>
+                            <a href="#" class="btn btn-outline-primary rounded-5">View Collection</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about-us" class="py-5 bg-primary text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <img src="https://images.unsplash.com/photo-1566054757965-8c4085344c96?w=600&h=400&fit=crop" class="img-fluid rounded shadow" alt="Museum Interior">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="display-4 fw-bold text-warning mb-4">About Us</h2>
+                    <p class="lead">Beautiful Arts Gallery has been a beacon of artistic excellence since 1952, dedicated to preserving and showcasing the finest artworks from around the world.</p>
+                    <p>Our museum houses over 10,000 pieces spanning from medieval times to contemporary art. We believe in making art accessible to everyone, fostering creativity, and inspiring future generations of artists and art lovers.</p>
+                    <div class="row mt-4">
+                        <div class="col-4 text-center">
+                            <h3 class="display-5 fw-bold text-warning">10K+</h3>
+                            <p>Artworks</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <h3 class="display-5 fw-bold text-warning">70+</h3>
+                            <p>Years</p>
+                        </div>
+                        <div class="col-4 text-center">
+                            <h3 class="display-5 fw-bold text-warning">1M+</h3>
+                            <p>Visitors</p>
+                        </div>
+                    </div>
+                    <a href="#contact-us" class="btn btn-warning btn-lg rounded-5 mt-4">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sponsorship Section -->
+    <section id="sponsorship" class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="display-4 fw-bold text-primary">Sponsorship</h2>
+                <p class="lead text-muted">Partner with us to preserve art for future generations</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4">
+                        <div class="card-body">
+                            <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-primary">Bronze Sponsor</h4>
+                            <h3 class="display-6 fw-bold text-primary">$500</h3>
+                            <p class="text-muted">per year</p>
+                            <ul class="list-unstyled text-start">
+                                <li class="py-2 border-bottom">✓ Name on donor wall</li>
+                                <li class="py-2 border-bottom">✓ Free museum entry</li>
+                                <li class="py-2 border-bottom">✓ Monthly newsletter</li>
+                                <li class="py-2">✓ 10% gift shop discount</li>
+                            </ul>
+                            <button class="btn btn-outline-primary rounded-5 w-100 mt-3">Become a Sponsor</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow h-100 text-center p-4 bg-primary text-light">
+                        <div class="card-body">
+                            <span class="badge bg-warning text-primary mb-2">Most Popular</span>
+                            <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-warning">Silver Sponsor</h4>
+                            <h3 class="display-6 fw-bold text-warning">$2,000</h3>
+                            <p class="text-light opacity-75">per year</p>
+                            <ul class="list-unstyled text-start">
+                                <li class="py-2 border-bottom border-light">✓ All Bronze benefits</li>
+                                <li class="py-2 border-bottom border-light">✓ VIP exhibition previews</li>
+                                <li class="py-2 border-bottom border-light">✓ Guest passes (4/year)</li>
+                                <li class="py-2">✓ 20% gift shop discount</li>
+                            </ul>
+                            <button class="btn btn-warning rounded-5 w-100 mt-3">Become a Sponsor</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card border-0 shadow-sm h-100 text-center p-4">
+                        <div class="card-body">
+                            <div class="bg-warning rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M9.669.864 8 0 6.331.864l-1.858.282-.842 1.68-1.337 1.32L2.6 6l-.306 1.854 1.337 1.32.842 1.68 1.858.282L8 12l1.669-.864 1.858-.282.842-1.68 1.337-1.32L13.4 6l.306-1.854-1.337-1.32-.842-1.68L9.669.864zm1.196 1.193.684 1.365 1.086 1.072L12.387 6l.248 1.506-1.086 1.072-.684 1.365-1.51.229L8 10.874l-1.355-.702-1.51-.229-.684-1.365-1.086-1.072L3.614 6l-.25-1.506 1.087-1.072.684-1.365 1.51-.229L8 1.126l1.356.702 1.509.229z"/>
+                                    <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+                                </svg>
+                            </div>
+                            <h4 class="text-primary">Gold Sponsor</h4>
+                            <h3 class="display-6 fw-bold text-primary">$5,000</h3>
+                            <p class="text-muted">per year</p>
+                            <ul class="list-unstyled text-start">
+                                <li class="py-2 border-bottom">✓ All Silver benefits</li>
+                                <li class="py-2 border-bottom">✓ Private curator tours</li>
+                                <li class="py-2 border-bottom">✓ Exclusive events access</li>
+                                <li class="py-2">✓ Recognition in exhibitions</li>
+                            </ul>
+                            <button class="btn btn-outline-primary rounded-5 w-100 mt-3">Become a Sponsor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <p class="text-muted">Want to discuss custom sponsorship packages?</p>
+                <a href="#contact-us" class="btn btn-primary btn-lg rounded-5">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact-us" class="py-5 bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-light mb-4 mb-lg-0">
+                    <h2 class="display-4 fw-bold text-warning mb-4">Contact Us</h2>
+                    <p class="lead">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+                    <div class="mt-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-warning rounded-circle p-3 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 text-warning">Address</h6>
+                                <p class="mb-0">123 Art Street, Museum District, City 12345</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-warning rounded-circle p-3 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 text-warning">Phone</h6>
+                                <p class="mb-0">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <div class="bg-warning rounded-circle p-3 me-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="text-primary" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h6 class="mb-0 text-warning">Email</h6>
+                                <p class="mb-0">info@beautifularts.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow">
+                        <div class="card-body p-4">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label text-primary">Full Name</label>
+                                    <input type="text" class="form-control rounded-5" id="name" placeholder="John Doe">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label text-primary">Email Address</label>
+                                    <input type="email" class="form-control rounded-5" id="email" placeholder="john@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label text-primary">Subject</label>
+                                    <input type="text" class="form-control rounded-5" id="subject" placeholder="How can we help?">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label text-primary">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" placeholder="Your message here..."></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary rounded-5 w-100">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Beautiful Arts Gallery. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#" class="text-light me-3">Privacy Policy</a>
+                    <a href="#" class="text-light me-3">Terms of Service</a>
+                    <a href="#" class="text-light">Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
